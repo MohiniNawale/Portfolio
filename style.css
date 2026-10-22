@@ -12,3 +12,15 @@
 @media(max-width:900px){.hero{column-gap:30px;min-height:600px}.hero h1{font-size:clamp(40px,5.8vw,57px)}.skills-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.journey-grid{gap:22px}.profile-card{padding:23px}.nav-links{gap:18px}}
 @media(max-width:680px){.container{width:calc(100% - 34px)}.nav{height:66px;gap:12px}.menu-toggle{display:grid;place-items:center;margin-left:auto}.nav-cta{display:none}.nav-links{display:none;position:absolute;top:58px;left:0;right:0;padding:10px;background:white;border:1px solid var(--line);border-radius:13px;box-shadow:var(--shadow);flex-direction:column;align-items:stretch;gap:0}.nav-links.open{display:flex}.nav-links a{padding:12px 10px;border-radius:8px}.nav-links a:hover{background:var(--accent-soft)}.hero{display:flex;flex-direction:column;align-items:stretch;gap:28px;min-height:auto;padding-top:65px;padding-bottom:70px}.hero-copy{order:1}.hero-side{order:2;padding:0 5px 22px}.hero h1{font-size:clamp(39px,11vw,54px);letter-spacing:-1.7px}.hero-description{font-size:14px;margin-top:18px}.hero .eyebrow{margin-top:22px}.profile-card{padding:22px}.profile-card h2{font-size:26px}.avatar-mark{margin:22px 0 18px}.floating-note{right:-2px;bottom:0}.scroll-cue{bottom:15px}.section{padding-top:70px;padding-bottom:70px}.section-heading{margin-bottom:26px}.section-heading h2{letter-spacing:-1.3px}.about-layout,.projects-grid,.journey-grid{grid-template-columns:minmax(0,1fr)}.about-copy{padding:24px}.about-copy h3{font-size:21px}.quick-facts{gap:9px}.skills-grid{grid-template-columns:minmax(0,1fr);gap:10px}.skill-group{padding:18px}.project-visual{height:145px}.project-content{padding:20px}.project-content h3{font-size:19px}.project-filters{margin-bottom:18px}.filter-button{padding:8px 10px}.journey-grid{gap:12px}.education-card{padding:22px}.contact-section{padding-top:25px;padding-bottom:65px}.contact-panel{padding:30px 23px;border-radius:18px}.contact-panel h2{letter-spacing:-1.4px}.contact-links{gap:14px}.footer-inner{padding:22px 0;flex-wrap:wrap;justify-content:space-between}.footer p{order:3;flex-basis:100%}}
 @media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+
+/* Automatically loaded public GitHub projects */
+.github-projects-wrap{margin-top:64px;padding-top:35px;border-top:1px solid var(--line)}
+.github-projects-heading{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:18px}
+.github-projects-heading .eyebrow{margin-bottom:8px}
+.github-projects-heading h3{font-family:Manrope,sans-serif;font-size:clamp(22px,3vw,30px);line-height:1.25;letter-spacing:-.8px}
+.github-projects-heading h3 span{color:var(--accent)}
+.github-projects-status{font-size:12px;color:var(--muted);margin-bottom:18px}
+.visual-github{background:#eeedf3;color:#514b67}
+.github-project-card .project-visual>i{font-size:42px}
+@media(max-width:620px){.github-projects-heading{align-items:flex-start;flex-direction:column;gap:0}.github-projects-wrap{margin-top:45px;padding-top:28px}}
