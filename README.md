@@ -14,11 +14,13 @@
 
 ## 👩‍💻 About Me
 
-Hello! I'm **Mohini Nawale**, an Artificial Intelligence & Data Science Engineer passionate about software development, data analytics and machine learning.
+I am **Mohini Nawale**, an AI and Data Science engineering student. I know Java, Python, SQL, HTML, and CSS. I like learning new things and making useful projects.
 
-I enjoy building practical solutions, exploring new technologies and continuously improving my technical skills.
+### 🎯 My Goal
 
-### 🎯 Currently Interested In
+My goal is to get a good job in software development, learn new technologies, and improve my coding skills.
+
+## 🎯 Currently Interested In
 
 - Java Development
 - Python & Machine Learning
@@ -48,7 +50,7 @@ I enjoy building practical solutions, exploring new technologies and continuousl
 
 ### 1. 🎓 Intelligent Elective Subject Selection System
 
-A web-based platform designed to simplify the online elective subject selection process.
+This project helps students select elective subjects online. Teachers, HODs, and Principals can also manage the selection process.
 
 **Features:**
 - Student login and elective selection
@@ -65,7 +67,7 @@ A web-based platform designed to simplify the online elective subject selection 
 
 ### 2. 📰 Fake News Detection using Machine Learning
 
-A Machine Learning project designed to classify news content as **Real or Fake** using text-based data and machine learning techniques.
+This project uses machine learning to check whether news is **Real or Fake**.
 
 **Technologies:** `Python` `Machine Learning` `Google Colab` `Kaggle`
 
